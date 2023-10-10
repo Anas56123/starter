@@ -48,3 +48,4 @@ const cookieMessagebtn = document.getElementById('e');
 cookieMessagebtn.addEventListener('click', function () {
   cookieMessage.remove();
 });
+console.log('hello')
