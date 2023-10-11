@@ -50,3 +50,31 @@ document.addEventListener('keydown', function (e) {
 // });
 // console.log('hello')
 // console.log(getComputedStyle(cookieMessage) .color)
+
+const btnScrollTo = document.querySelector('.btn--scroll-to');
+const section1 = document.getElementById('section--1');
+btnScrollTo.addEventListener('click', function (e) {
+  const s1coords = section1.getBoundingClientRect();
+  // window.scrollTo(
+  //   s1coords.left + window.pageXOffset,
+  //   s1coords.top + window.pageYOffset
+  // );
+  //   window.scrollTo({
+  //     left: s1coords.left + window.pageXOffset,
+  //     top: s1coords.top + window.pageYOffset,
+  //     behavior: 'smooth'
+  // });
+  section1.scrollIntoView({ behavior: 'smooth' });
+});
+
+const h1 = document.querySelector('h1');
+let oneTime = 0
+const alertH1 = function (e) {
+  if (oneTime == 1){
+
+  }else {
+    alert('You are readind :D');
+    oneTime++
+  }
+}
+h1.addEventListener('mouseenter', alertH1);
