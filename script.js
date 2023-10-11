@@ -37,15 +37,16 @@ document.addEventListener('keydown', function (e) {
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
-console.log(document.body);
-const cookieMessage = document.createElement('div');
-cookieMessage.classList.add('cookie-message');
-cookieMessage.innerHTML =
-  'ffffffffffffffff <button id="e">Go for it</button>';
-const header = document.querySelector('.header');
-header.append(cookieMessage);
-const cookieMessagebtn = document.getElementById('e');
-cookieMessagebtn.addEventListener('click', function () {
-  cookieMessage.remove();
-});
-console.log('hello')
+// console.log(document.body);
+// const cookieMessage = document.createElement('div');
+// cookieMessage.classList.add('cookie-message');
+// cookieMessage.innerHTML =
+//   'ffffffffffffffff <button id="e">Go for it</button>';
+// const header = document.querySelector('.header');
+// header.append(cookieMessage);
+// const cookieMessagebtn = document.getElementById('e');
+// cookieMessagebtn.addEventListener('click', function () {
+//   cookieMessage.remove();
+// });
+// console.log('hello')
+// console.log(getComputedStyle(cookieMessage) .color)
