@@ -51,9 +51,9 @@ document.addEventListener('keydown', function (e) {
 // console.log('hello')
 // console.log(getComputedStyle(cookieMessage) .color)
 
-const btnScrollTo = document.querySelector('.btn--scroll-to');
+const btnScrollTo1 = document.querySelector('.btn--scroll-to');
 const section1 = document.getElementById('section--1');
-btnScrollTo.addEventListener('click', function (e) {
+btnScrollTo1.addEventListener('click', function (e) {
   const s1coords = section1.getBoundingClientRect();
   // window.scrollTo(
   //   s1coords.left + window.pageXOffset,
